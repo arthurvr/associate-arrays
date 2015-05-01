@@ -17,7 +17,7 @@ var associateArrays = require('associate-arrays');
 var animals = ['cow', 'pig', 'dog', 'cat'];
 var sounds = ['Moo', 'Oink', 'Woof', 'Miao'];
 
-associateArrays(keys, values);
+associateArrays(animals, sounds);
 //=> {cow: 'Moo', pig: 'Oink', dog: 'Woof', cat: 'Miao'}
 ```
 
