@@ -1,6 +1,6 @@
 {
   "name": "associate-arrays",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Use an array of keys and an array of values to create an object",
   "license": "MIT",
   "repository": "arthurvr/associate-arrays",
