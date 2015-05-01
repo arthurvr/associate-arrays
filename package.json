@@ -1,0 +1,33 @@
+{
+  "name": "associate-arrays",
+  "version": "0.0.0",
+  "description": "Use an array of keys and an array of values to create an object",
+  "license": "MIT",
+  "repository": "arthurvr/associate-arrays",
+  "author": {
+    "name": "Arthur Verschaeve",
+    "email": "contact@arthurverschaeve.be",
+    "url": "arthurverschaeve.be"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "values",
+    "keys",
+    "array",
+    "arrays",
+    "pairs",
+    "object",
+    "creation"
+  ],
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
