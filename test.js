@@ -1,8 +1,7 @@
-'use strict';
-var test = require('ava');
-var aa = require('./');
+import test from 'ava';
+import aa from './';
 
-test('associates arrays', function (t) {
+test('associates arrays', t => {
 	t.same(aa(['foo'], ['bar']), {foo: 'bar'});
 	t.same(aa(['foo', 'bar'], ['bar', 'foo']), {
 		foo: 'bar',
@@ -16,12 +15,12 @@ test('associates arrays', function (t) {
 	t.end();
 });
 
-test('Throws on non-array input', function (t) {
-	t.throws(function () {
+test('Throws on non-array input', t => {
+	t.throws(() => {
 		aa({}, ['foo']);
 	});
 
-	t.throws(function () {
+	t.throws(() => {
 		aa(['foo'], {});
 	});
 
