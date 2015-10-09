@@ -12,10 +12,10 @@ $ npm install --save associate-arrays
 ## Usage
 
 ```js
-var associateArrays = require('associate-arrays');
+const associateArrays = require('associate-arrays');
 
-var animals = ['cow', 'pig', 'dog', 'cat'];
-var sounds = ['Moo', 'Oink', 'Woof', 'Miao'];
+const animals = ['cow', 'pig', 'dog', 'cat'];
+const sounds = ['Moo', 'Oink', 'Woof', 'Miao'];
 
 associateArrays(animals, sounds);
 //=> {cow: 'Moo', pig: 'Oink', dog: 'Woof', cat: 'Miao'}
